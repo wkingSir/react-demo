@@ -1,0 +1,8 @@
+.customer-icon {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFW…/HrREfy5BNaTfiZ+0i2BJHwVa5Oht6kN//KSaT830IMADJerf4mRjd4gAAAABJRU5ErkJggg==);
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-top: -2px;
+}
