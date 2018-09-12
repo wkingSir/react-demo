@@ -53,7 +53,7 @@ class AntdModal extends React.Component{
     render(){
         return(
             <div>
-                <Form action="www.baidu.com">
+                <Form action="www.baidu.com" >
                     <Input defaultValue="default somthing" className="inputTest"/>
                     <Select style={{ width: 100 }} defaultValue="Apple" className="selectTest">
                         {plainOptions.map((option,index) =>
@@ -69,7 +69,7 @@ class AntdModal extends React.Component{
                         <RadioGroup options={optionsWithDisabled} onChange={this.onChange3} value={this.state.value3} />
                     </div>
                     <DatePicker />
-                    <Button type="submit"/>
+                    <Button type="submit">提交</Button>
                 </Form>
             </div>
         ) 

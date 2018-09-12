@@ -22,7 +22,6 @@ class App extends Component {
         
         <BMapComponent/>
         <AntdModal />
-        <Picker />
       </div>
     );
   }
