@@ -8,6 +8,8 @@ import AntdModal from './component/antdCom'
 import 'emoji-mart/css/emoji-mart.css'
 import { Picker } from 'emoji-mart'
 
+import Execise from './component/execis'
+
 
 class App extends Component {
   render() {
@@ -22,6 +24,10 @@ class App extends Component {
         
         <BMapComponent/>
         <AntdModal />
+        <br></br>
+        <div>
+          <Execise/>
+        </div>
       </div>
     );
   }
