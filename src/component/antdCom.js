@@ -55,7 +55,7 @@ class AntdModal extends React.Component{
             <div>
                 <Form action="www.baidu.com" >
                     <Input defaultValue="default somthing" className="inputTest"/>
-                    <Select style={{ width: 100 }} defaultValue="Apple" className="selectTest">
+                    <Select style={{ width: 50 }} defaultValue="Apple" className="selectTest">
                         {plainOptions.map((option,index) =>
                             <Option key={index} value={option}>{option}</Option>
                         )}
